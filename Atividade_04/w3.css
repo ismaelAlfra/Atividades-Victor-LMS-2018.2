@@ -44,19 +44,19 @@ h2{
 }
 
 
-#menu ul li{
+#menu > ul > li{
     padding: 16px;
     float: left;
     color: white;
     display: block;
     font-family: "Segoe UI";
     font-size: 17px;
+    cursor: pointer;
 }
 
-#menu ul li:hover{
+#menu > ul > li:hover{
     background-color: white;
     color: #555555;
-    cursor: pointer;
 }
 
 .Tutorials{
@@ -66,6 +66,7 @@ h2{
     margin-left: -15px;
     overflow: hidden;
     background-color: #f3f3f3;
+    cursor: auto;
 }
 
 .dropdown{
@@ -87,10 +88,14 @@ h2{
 }
 
 .Tutorials ul li{
-    margin: 10px;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 .Tutorials ul li:hover{
     background-color: #cacaca;
-    cursor: pointer;
 }
