@@ -21,25 +21,25 @@ a{
 }
                         /* ÍCONES */
 .face{
-    background: url("./_img/face.png") center no-repeat black;
+    background: url("./img/face.png") center no-repeat black;
     width: 30px;
     height: 30px;
 }
 
 .phone{
-    background: url("./_img/phone.png") center no-repeat;
+    background: url("./img/phone.png") center no-repeat;
     width: 30px;
     height: 30px;
 }
 
 .gmail{
-    background: url("./_img/email.png") center no-repeat;
+    background: url("./img/email.png") center no-repeat;
     width: 30px;
     height: 30px;
 }
 
 .insta{
-    background: url("./_img/insta.png") center no-repeat;
+    background: url("./img/insta.png") center no-repeat;
     width: 30px;
     height: 30px;
 }
