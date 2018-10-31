@@ -1,0 +1,252 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.top-content{
+    width: 100vw;
+    overflow: hidden;
+    background-color: #009A90;
+    position: fixed;
+    background-attachment: fixed;
+    z-index: 1;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.171);
+}
+
+.logo{
+    float: left;
+    margin: 13px;
+    width: 150px;
+    height: 40px;
+    background: url("../img/logo.png") no-repeat round;
+}
+
+.botao{
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    width: fit-content;
+    font-family: 'Segoe UI';
+    /* background-color: rgb(1, 126, 117); */
+    /* border-radius: 80px; */
+    border-bottom: 3px solid #009A90;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    user-select: none;
+    cursor: pointer;
+    transition: border-bottom 200ms;
+}
+
+.botao:hover{
+    
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+.slide{
+    background: rgb(40, 34, 46) fixed;
+    width: 100vw;
+    /* height: calc(100vh - 66px); */
+    height: 100vh;
+    /* background-attachment: fixed; */
+}
+
+.seta{
+    color: white;
+    font-family: 'Lucida Sans';
+    font-size: 60px;
+    user-select: none;
+    cursor: pointer;
+    position: absolute;
+    padding: 20px;
+    top: 50%;
+    transform: translate(0 25%);
+}
+
+.seta-left{
+    float: left;
+    position: relative;
+    z-index: 0;
+}
+
+.seta-right{
+    position: relative;
+    left: -20px;
+    float: right;
+    z-index: 0;
+}
+
+.bolinhas{
+    display: flex;
+    position: relative;
+    top: 90%;
+    justify-content: center;
+}
+
+.bolinha{
+    display: inline-block;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 3px #009A90 solid;
+    border-radius: 100%;
+    transition: background-color 400ms;
+    z-index: 0;
+}
+
+.bolinha:hover{
+    background-color: rgb(214, 14, 14);
+}
+
+.o-que-faz{
+    background: url("../img/fotografia0.jpg") fixed;
+    width: 100vw;
+    height: 90vh;
+    position: relative;
+    z-index: -2;
+    /* padding-top: 30px; */
+}
+
+.overlay{
+    width: 100vw;
+    height: 90vh;
+    background-color: rgba(0, 100, 93, 0.753);
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.itens{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.item{
+    width: 300px;
+    height: 400px;
+    /* background-color: white; */
+    margin: 30px;
+    text-align: center;
+}
+
+.title{
+    margin: auto;
+    color:white;
+    font-family: 'Lucida Sans';
+    font-weight: normal;
+    user-select: none;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    border-bottom: 5px solid white;
+    width: 300px
+}
+
+.text{
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans';
+}
+
+.item .icon1{
+    width: 150px;
+    height: 150px;
+    background: url("../img/icons/level.png") round no-repeat;
+    display: inline-block;
+}
+
+.icon{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+
+.item .icon2{
+    width: 150px;
+    height: 150px;
+    background: url("../img/icons/network.png") round no-repeat;
+    display: inline-block;
+}
+
+.item .icon3{
+    width: 150px;
+    height: 150px;
+    background: url("../img/icons/list.png") round no-repeat;
+    display: inline-block;
+}
+
+
+.como-funciona{
+    background: url("../img/fotografia1.jpg") no-repeat round fixed;
+    width: 100vw;
+    height: 90vh;
+    z-index: -2;
+    position: relative;
+}
+
+.separator{
+    width: 100vw;
+    border-bottom: white solid 3px;
+}
+
+.video-conceitual{
+    width: 854px;
+    height: 480px;
+    background-color: rgba(255, 255, 255, 0.486);
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.video-conceitual video{
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    width: 844px;
+    height: 470px;
+    border-radius: 10px;
+}
+
+.publico-alvo{
+    background: url("../img/fotografia2.jpg") no-repeat round fixed;
+    width: 100vw;
+    height: 80vh;
+    z-index: -2;
+    position: relative;
+}
+
+.desc{
+    margin: auto;
+    width: 60vw;
+}
+
+.icon4{
+    background: url("../img/icons/Medicos-01.png") round no-repeat;
+    height: 210px;
+    width: 200px;
+}
+
+.icon5{
+    background: url("../img/icons/Enf-01.png") round no-repeat;
+    height: 215px;
+    width: 200px;
+}
+
+.icon6{
+    background: url("../img/icons/Tec-Enf-01.png") round no-repeat;
+    height: 215px;
+    width: 200px;
+}
+
+.icon7{
+    background: url("../img/icons/ADM-01-01.png") round no-repeat;
+    height: 215px;
+    width: 200px;
+}
