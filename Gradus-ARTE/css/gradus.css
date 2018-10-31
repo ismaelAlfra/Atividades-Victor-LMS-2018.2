@@ -10,7 +10,7 @@ body{
 .top-content{
     width: 100vw;
     overflow: hidden;
-    background-color: #009A90;
+    background-color: white;
     position: fixed;
     background-attachment: fixed;
     z-index: 1;
@@ -20,7 +20,7 @@ body{
 .logo{
     float: left;
     margin: 13px;
-    width: 150px;
+    width: 190px;
     height: 40px;
     background: url("../img/logo.png") no-repeat round;
 }
@@ -31,11 +31,9 @@ body{
     padding: 10px;
     width: fit-content;
     font-family: 'Segoe UI';
-    /* background-color: rgb(1, 126, 117); */
-    /* border-radius: 80px; */
-    border-bottom: 3px solid #009A90;
+    border-bottom: 3px solid white;
     text-align: center;
-    color: white;
+    color: rgb(13, 100, 150);
     font-size: 17px;
     user-select: none;
     cursor: pointer;
@@ -43,8 +41,7 @@ body{
 }
 
 .botao:hover{
-    
-    border-bottom: 3px solid rgb(255, 255, 255);
+    border-bottom: 3px solid rgb(13, 69, 102);
 }
 
 .slide{
@@ -133,6 +130,7 @@ body{
     /* background-color: white; */
     margin: 30px;
     text-align: center;
+    display: inline-block;
 }
 
 .title{
@@ -249,4 +247,17 @@ body{
     background: url("../img/icons/ADM-01-01.png") round no-repeat;
     height: 215px;
     width: 200px;
+}
+
+.onde{
+    background: url("../img/fotografia3.jpg") no-repeat round fixed;
+    width: 100vw;
+    height: 90vh;
+    z-index: -2;
+    position: relative;
+    text-align: center;
+}
+
+.icon8{
+    background: url("../img/icons/hospital.png") round no-repeat;
 }
